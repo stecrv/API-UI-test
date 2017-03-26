@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>API UI TEST </title>
+
+    <script src="src/rest.js" type="text/javascript"></script>
+    <script src="src/app.js" type="text/javascript"></script>
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="rest">
+<div id="container">
+    <div id="top">
+        REST Framework v1
+    </div>
+    <div id="content">
+        <div id="endPointTileWrap">
+            <h2 id="endPointTile"></h2>
+        </div>
+        <div id="endPointURLWrap"  class="inputLine">
+            <input id="endPointURL" name="endPointURL" type="text">
+        </div>
+        <div id="outputFormatWrap" class="inputLine">
+            <select id="outputFormat" name="outputFormat" type="select"></select>
+        </div>
+        <div id="getDataWrap"  class="inputLine">
+            <input id="getData" name="getData" type="button" value="Get Result"/>
+        </div>
+        <div id="outputWrap">
+            <textarea readonly id="output" name="output"></textarea>
+        </div>
+    </div>
+</div>
+</body>
+</html>
